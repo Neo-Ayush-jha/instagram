@@ -4,3 +4,15 @@ body{
 ::-webkit-scrollbar{
   display: none;
 }
+.gradient-border-bg {
+  background: linear-gradient(45deg, coral 0%,#e6683c 25%,#dc2743 50%,#cc2366 25%,#bc1888 70%); 
+  border: 3px solid transparent;
+  border-radius: 50px;
+}
+.gradient {
+  /* background: linear-gradient(45deg, slateblue, coral) border-box; */
+  /* background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);  */
+  background: linear-gradient(45deg, coral 0%,#e6683c 25%,#dc2743 50%,#cc2366 25%,#bc1888 70%); 
+  border: 2px solid transparent;
+  border-radius: 50px;
+}
